@@ -1,17 +1,24 @@
-\documentclass{book}
+\documentclass[12pt,a4paper]{book}
 
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{helvet}
+\usepackage{titling}
 \usepackage{lipsum}
 
-\title{title}
-\author{author}
+\geometry{top=3cm,bottom=2.5cm,left=3cm,right=2.5cm}
+\renewcommand{\familydefault}{\sfdefault}
+
+\title{@title}
+\author{@author}
+\date{\today}
 
 \begin{document}
 
 \frontmatter
 
-\maketitle
+\input{cover}
 \tableofcontents
 
 \mainmatter
