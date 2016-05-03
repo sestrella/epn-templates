@@ -1,17 +1,10 @@
 \documentclass[12pt,a4paper,oneside]{book}
 
-\usepackage[utf8]{inputenc}
-\usepackage[spanish]{babel}
-\usepackage{geometry}
-\usepackage{helvet}
-\usepackage{titling}
-\usepackage{lipsum}
+\input{preamble}
+\input{styles}
 
-\geometry{top=3cm,bottom=2.5cm,left=3cm,right=2.5cm}
-\renewcommand{\familydefault}{\sfdefault}
-
-\title{@title}
-\author{@author}
+\title{Plantilla de Tesis}
+\author{Sebastián Estrella}
 \date{\today}
 
 \begin{document}
@@ -23,7 +16,7 @@
 \input{certification}
 \input{acknowledgments}
 \input{dedication}
-\tableofcontents
+\input{content}
 
 \mainmatter
 

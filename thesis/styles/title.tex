@@ -1,0 +1,13 @@
+\usepackage[explicit]{titlesec}
+
+\addto\captionsspanish{
+  \renewcommand{\contentsname}{\centerline{Contenido}}
+  \renewcommand{\listtablename}{\centerline{Listado de Tablas}}
+  \renewcommand{\tablename}{Tabla}
+  \renewcommand{\listfigurename}{\centerline{Listado de Figuras}}
+}
+
+\titleformat{\chapter}{\Large\bf}{\MakeUppercase\chaptertitlename\,\thechapter.}{0.5em}{\MakeUppercase{#1}}
+\titleformat{\section}{\large\bf}{\thesection}{0.5em}{\MakeUppercase{#1}}
+\titleformat{\subsection}{\bf}{\thesubsection}{0.5em}{\MakeUppercase{#1}}
+\titleformat{\subsubsection}{\bf}{\thesubsubsection}{0.5em}{#1}
