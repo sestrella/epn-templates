@@ -1,0 +1,7 @@
+addons:
+  apt:
+    packages:
+      - texlive-full
+
+script:
+  - cd thesis && make
