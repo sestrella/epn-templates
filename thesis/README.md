@@ -26,6 +26,10 @@ apt-get install -y texlive-full
 pacman -S texlive-most
 ```
 
+#### Windows
+
+Install [MiKTeX](http://miktex.org).
+
 ### Building
 
 To generate the PDF just run the following command:
