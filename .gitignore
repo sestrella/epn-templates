@@ -1,1 +1,2 @@
-thesis/out
+thesis/out/*
+!thesis/out/.gitkeep
